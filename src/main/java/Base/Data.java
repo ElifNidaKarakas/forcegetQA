@@ -8,7 +8,6 @@ public class Data {
     public static String email = "elifnidakarakas@gmail.com";
     public static String password = "Nida.123&";
     public static String confirmPassword = "Nida.123&";
-    public static String errorMessage = "Check your email address and password.";
-    public static String bosMailMessage = " Enter your Email Address to continue. ";
-    public static String bosPasswordMessage = " Enter your Password to continue. ";
+    public static String errorMessage = "Password verification failed";
+
 }

@@ -27,7 +27,7 @@ public class LoginPage extends BaseLibrary {
 
     @Step("Ülke kodu seçilir ")
     public LoginPage countryClick() {
-        driver.findElements(By.className("[class=\"flex items-center gap-2 text-12px w-350px ng-star-inserted\"")).get(17).click();
+        driver.findElement(By.cssSelector("body > app-root > app-full-layout > sign-up1 > div > div.flex-1.flex.items-center.justify-center.main-content-form > perfect-scrollbar > div > div.ps-content > div > form > div.flex.custom-gap > nz-form-item.ant-form-item.ant-row.mb-0.min-w-100px > nz-form-control > div > div > nz-input-group > forceget-country-dropdown > nz-select > nz-select-top-control > nz-select-item > div")).click();
         return this;
     }
 
@@ -57,7 +57,7 @@ public class LoginPage extends BaseLibrary {
 
     @Step("DropDown seçilir ")
     public LoginPage titleClick() {
-         driver.findElements(By.className("class=\"ant-select-item ant-select-item-option ng-star-inserted\"")).get(4).click();
+         driver.findElements(By.className("class=\"ant-select-selection-item ng-star-inserted\"")).get(1).click();
         return this;
     }
 
